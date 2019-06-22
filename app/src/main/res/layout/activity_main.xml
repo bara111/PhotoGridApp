@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".75">
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:id="@+id/image1"
+
+
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/mybutton" />
+
+        <ImageButton
+            android:id="@+id/image2"
+
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/mybutton" />
+
+        <ImageButton
+            android:id="@+id/image3"
+
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/mybutton" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:id="@+id/image4"
+
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/mybutton" />
+
+        <ImageButton
+            android:id="@+id/image5"
+
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/mybutton" />
+
+        <ImageButton
+            android:id="@+id/image6"
+
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/mybutton" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:id="@+id/image7"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/mybutton" />
+
+        <ImageButton
+            android:id="@+id/image8"
+            android:layout_width="100dp"
+
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/mybutton" />
+
+        <ImageButton
+            android:id="@+id/image9"
+
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/mybutton" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/captureFront"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="40dp"
+            android:background="@drawable/camera_shutter"
+
+            />
+
+        <ImageButton
+            android:id="@+id/imageCat"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:background="@drawable/mybutton"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
