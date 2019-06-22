@@ -30,7 +30,7 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 
-public class MainActivity extends AppCompatActivity implements ExampleDialog.ExampleDialogListener {
+public class MainActivity extends AppCompatActivity  {
     private ImageButton imageButton1, imageButton2, imageButton3, imageButton4, imageButton5, imageButton6, imageButton7, imageButton8, imageButton9, CatImageButton;
 
     Context context = this;
@@ -259,14 +259,7 @@ public class MainActivity extends AppCompatActivity implements ExampleDialog.Exa
     }
 
 
-    public void openDialog() {
-        ExampleDialog exampleDialog = new ExampleDialog();
-        exampleDialog.show(getSupportFragmentManager(), "example dialog");
-    }
 
 
-    @Override
-    public void applyTexts(String username, String password) {
 
-    }
 }
